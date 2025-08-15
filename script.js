@@ -6,67 +6,66 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta deve ser escrita aqui",
+        enunciado: "qual dessas atitudes você acha mais fácil começar hoje?",
         alternativas: [
             {
-                texto: "alternativa letra A deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra A deve estar aqui "
+                texto: "Realizar a luz ao sair do cômodo economiza energia",
+                afirmacao: "Pequenas ações diárias já fazem diferença" 
             },
-            {
-                texto: "alternativa letra B deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra B deve estar aqui "
+texto: "Fechar a torneira ao escovar os dentes economiza até 20 litros por dia",
+                afirmacao: "Preservar a água é preservar a vida"
             }
         ]
     },
     {
-        enunciado: "",
-        alternativas: [
+        enunciado: "Qual dessas frases você sente que mais representa você?",
+        alternativas: [ 
             {
-                texto: "",
-                afirmacao: ""
+                texto: " A reciclagem reduz a quantidade de lixo nos aterros",
+                afirmacao: " transformar o destino do lixo também transformar o mundo"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "As florestas ajudam a regular o clima e produzem oxigênio",
+                afirmacao: "A natureza é essencial para o equilibrio da vida "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Por que devemos agir agora?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "A mudança climática afeta principalmente os mais vulneráveis",
+                afirmacao: "cuidar do planeta é também um ato de justiça"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Ainda da tempo de frear os danos, mais é preciso união",
+                afirmacao: "se cada um fizer a sua parte, tudo pode mudar"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "O que mais te inspira quando pensa em proteger a natureza?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Plantas ajudam a limpar o ar e regular a temperatura ",
+                afirmacao: "a natureza respira, e nos faz respirar também"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "As áreas verdes melhoram a saúde física e mental das pessoas",
+                afirmacao: "onde há verde,  há vida,paz e equilibrio"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Quais dessas ações você gostaria de incentivar em outros pessoas?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Ensinar crianças sobre meio ambiente, forma adultos mais consientes ",
+                afirmacao: "educar é plantar sementes de mudanças"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Participar de multiroes de limpeza ajuda a recuperar espaços naturais",
+                afirmacao: "juntos, podemos reconstruir o que foi destruído"
             }
         ]
     },
